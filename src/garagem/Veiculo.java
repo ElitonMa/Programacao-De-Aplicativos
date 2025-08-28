@@ -12,7 +12,7 @@ public class Veiculo {
     }
 
     public void exibirDados() {
-        System.out.println("Esse veiculo tem " + rodas + ", o motor é: " + motor + " e tem capacidade de transporte de " + capacidadeTransporte + "Kg");
+        System.out.println("Esse veiculo tem " + rodas + " rodas, o motor é: " + motor + " e tem capacidade de transporte de " + capacidadeTransporte + "Kg");
     }
 
     public int getCapacidadeTransporte() {
